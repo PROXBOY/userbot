@@ -1,6 +1,6 @@
-"""Fun pligon...for Mafia Userbot
+"""Fun pligon...for 
 
-\nCode by @H1M4N5HU0P
+\nhehe
 
 type `.gaali` to see the fun.
 """
