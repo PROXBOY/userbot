@@ -14,7 +14,7 @@ else:
 
 mafia = bot.uid
 
-PM_IMG = "https://telegra.ph/file/b61486075c6ef73dd0d12.png"
+PM_IMG = "https://telegra.ph/file/1ef334aa6ad4707241ec7.mp4"
 pm_caption = "__**🔥🔥𝐗𝐓𝐑𝐄𝐌𝐄 𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥**__\n\n"
 
 pm_caption += f"               👑𝕄𝔸𝕊𝕋𝔼ℝ👑\n**『[{DEFAULTUSER}](tg://user?id={mafia})』**\n\n"
