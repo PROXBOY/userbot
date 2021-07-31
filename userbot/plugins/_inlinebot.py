@@ -85,7 +85,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     out_file,
                     force_document=True,
                     allow_cache=False,
-                    caption="Uploaded By angad personal userbot"
+                    caption="Uploaded By 𝚇𝚃𝚁𝙴𝙼𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃"
                 )
 
 
