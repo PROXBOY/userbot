@@ -16,7 +16,7 @@ PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 MAFIAPIC = (
     PMPERMIT_PIC
     if PMPERMIT_PIC
-    else "https://telegra.ph/file/b61486075c6ef73dd0d12.png"
+    else "https://telegra.ph/file/167358b40216036ee112c.jpg"
 )
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
@@ -24,12 +24,12 @@ myid = bot.uid
 MAFIA = (
     str(CUSTOM_PMPERMIT)
     if CUSTOM_PMPERMIT
-    else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS CRIME"
+    else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n 𝙳𝙸𝙻 𝚂𝚎 𝚋𝚞𝚛𝚊 𝚕𝚐𝚝𝚊 𝚑𝚊𝚒 🥺"
 )
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋"
-USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth you have been blocked by my master's 𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋.**\n__Now GTFO, i'm busy__"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝚢𝚎𝚊𝚑 𝚋𝚘𝚒𝚒"
+USER_BOT_WARN_ZERO = "**You were spamming m𝚢 master's inbox, henceforth you have been blocked by my 𝚖𝚊𝚜𝚝𝚎𝚛 𝚞𝚜𝚎𝚛𝚋𝚘𝚝.**\n__Now GTFO, i'm busy__"
 USER_BOT_NO_WARN = (
-    "Hello, This is **𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋 Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
+    "Hello 𝚜𝚒𝚛 /𝚖𝚊𝚖, This is **𝐦𝐨𝐢 𝐦𝐚𝐭𝐞𝐫'𝐬 𝐩𝐫𝐢𝐯𝐚𝐭𝐞 𝐮𝐬𝐞𝐫𝐛𝐨𝐭 ⚠️**.\n"
                    f"This is my master {DEFAULTUSER}'s Inbox\n"
                    f"\n**{MAFIA}**\n\n"
                     "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥"
@@ -145,7 +145,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     out_file,
                     force_document=True,
                     allow_cache=False,
-                    caption="[𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋]Current Approved PMs",
+                    caption="[𝑷𝑬𝑹𝑺𝑶𝑵𝑨𝑳]Current Approved PMs",
                     reply_to=event,
                 )
                 await event.delete()
