@@ -5,7 +5,7 @@ from platform import uname
 import sys
 from telethon import events, functions, __version__
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕄𝔸𝔽𝕀𝔸 𝕌𝕊𝔼ℝ𝔹𝕆𝕋"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝕏𝕋ℝ𝔼𝕄𝔼 𝕌𝕊𝔼ℝ𝔹𝕆𝕋"
 
 @command(pattern="^.help ?(.*)")
 #@borg.on(admin_cmd(pattern=r"help ?(.*)"))
@@ -29,7 +29,7 @@ async def cmd_list(event):
                         out_file,
                         force_document=True,
                         allow_cache=False,
-                        caption="**COMMANDS** In Mafia Userbot",
+                        caption="**COMMANDS** In Xtreme Userbot",
                         reply_to=reply_to_id
                     )
                     await event.delete()
@@ -84,7 +84,7 @@ async def _(event):
 
     if plugin_name in CMD_LIST:
         help_string = CMD_LIST[plugin_name].__doc__
-        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           @MAFIA_USERBOT"
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           @I_em_spoderman"
 
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
