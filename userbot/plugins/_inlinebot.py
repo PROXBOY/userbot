@@ -17,7 +17,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             rev_text = query[::-1]
             buttons = paginate_help(0, CMD_LIST, "helpme")
             result = builder.article(
-                "@MAFIA_USERBOT",
+                "Moi userbot",
                 text="{}\nCurrently Loaded Plugins: {}".format(
                     query, len(CMD_LIST)),
                 buttons=buttons,
@@ -36,7 +36,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Get your own userbot, don't use Mine\n Check @MAFIA_USERBOT For The Source!"
+            reply_pop_up_alert = "Get your own userbot, don't use Mine\n private userbot!"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -55,7 +55,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Get your own userbot, don't use Mine\n Check @MAFIA_USERBOT For The Source!"
+            reply_pop_up_alert = "dil se bura lgta hai bhai /n yeh angad ka userbot hai"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
         data=re.compile(b"us_plugin_(.*)")
@@ -74,7 +74,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             reply_pop_up_alert = help_string
         reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
-            © @MAFIA_USERBOT".format(plugin_name)
+            © by me".format(plugin_name)
         try:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         except:
@@ -85,7 +85,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                     out_file,
                     force_document=True,
                     allow_cache=False,
-                    caption="Uploaded By @MAFIA_USERBOT"
+                    caption="Uploaded By angad personal userbot"
                 )
 
 
